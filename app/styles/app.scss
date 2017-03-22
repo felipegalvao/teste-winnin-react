@@ -1,0 +1,25 @@
+@import 'components/Post';
+@import 'components/Navigation';
+@import 'components/ShowMoreButton';
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.page-title {
+    padding: 20px;
+    background-color: #555;
+    color: #fff;
+    margin-bottom: 30px;
+    h1 {
+        text-align: center;
+    }
+}
+
+.current-user {
+    font-style: italic;
+}
+
+.span-title-js {
+    color: #FF8800;
+}

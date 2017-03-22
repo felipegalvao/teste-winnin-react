@@ -1,0 +1,20 @@
+.row-navigation {
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #555;
+    color: #fff;
+    font-weight: bold;
+}
+
+.col-active {
+    .btn {
+        background-color: #FF8800;
+        color: #000;
+        &:focus, &:active {
+            background-color: #FF8800;
+        }
+    }
+}
+
